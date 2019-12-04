@@ -2,22 +2,19 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
-import { device } from "../../theme/breakpoints"
 
 const StyledImage = styled(Img)`
-  height: 100%;
-  @media ${device.tablet} {
-    display: none;
-  }
+  margin-bottom: 16px;
+  box-shadow: 0 1px 11px 8px rgba(174, 174, 174, 0.12);
 `
 
-const mobileHeroImage = () => (
+const MBPodcastImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        mobileHeroImage: file(relativePath: { eq: "hero.jpg" }) {
+        file(relativePath: { eq: "products/the-americans-podcast.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 200) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
@@ -25,14 +22,14 @@ const mobileHeroImage = () => (
       }
     `}
     render={data => {
-      const image = data.mobileHeroImage.childImageSharp
+      const image = data.file.childImageSharp
       return (
         <StyledImage
           fluid={image.fluid}
-          imgStyle={{ objectFit: "cover", objectPosition: "100% 100%" }}
+          alt="Frau guckt mit festem Blick in die Kamera, daneben The Americans Schriftzug"
         />
       )
     }}
   />
 )
-export default mobileHeroImage
+export default MBPodcastImage

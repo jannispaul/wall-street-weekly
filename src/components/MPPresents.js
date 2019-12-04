@@ -12,11 +12,10 @@ const PresentedBy = styled.div`
   align-content: center;
 `
 const StyledImage = styled.img`
-  margin-top: 5px;
   max-width: 100%;
   width: 200px;
   @media ${device.tablet} {
-    margin-top: 10px;
+    margin-top: 2px;
   }
 `
 

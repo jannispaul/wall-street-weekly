@@ -5,10 +5,9 @@ import styled from "styled-components"
 import Icon from "../components/Icon"
 import { ICONS } from "../theme/Icons"
 import { device } from "../theme/breakpoints"
-import headlineBG from "../content/images/headline-bg-4.png"
 
 const StyledAbout = styled.section`
-  background: #fff2f5;
+  background: #e8edfa;
   width: 100%;
   padding: 48px 24px;
   text-align: center;
@@ -48,47 +47,10 @@ const StyledIcon = styled.div`
   }
 `
 
-const StyledHeadline = styled.div`
-  position: relative;
-  display: block;
-  width: 100%;
-  text-align: center;
-
-  & > h2 {
-    color: #ff0045;
-    margin-bottom: 16px;
-  }
-  & img {
-    display: none;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    user-drag: none;
-    user-select: none;
-    left: 0;
-    right: 8px;
-    @media ${device.mobileM} {
-      display: block;
-      width: 232px;
-      top: 34px;
-      max-width: 430px;
-    }
-    @media ${device.tablet} {
-      width: 100%;
-      width: 290px;
-      max-width: 100%;
-      top: 50px;
-    }
-  }
-`
-
 const About = props => (
   <StyledAbout>
     <div>
-      <StyledHeadline>
-        <h2>About Chelsea</h2>
-        <img src={headlineBG} alt="Airplanes flying away from headline" />
-      </StyledHeadline>
+      <h2>About Sophie</h2>
       <p>
         As an American living in Germany for over a decade, Chelsea Spieker has
         a unique view on her home country: one that gives you an inside and an
@@ -96,7 +58,7 @@ const About = props => (
       </p>
       <SocialContainer>
         Follow:
-        <a
+        {/* <a
           href="https://business.facebook.com/the.americans.podcast"
           target="_blank"
           rel="noopener noreferrer"
@@ -105,32 +67,32 @@ const About = props => (
           <StyledIcon>
             <Icon icon={ICONS.FACEBOOK} />
           </StyledIcon>
-        </a>
+        </a> */}
         <a
-          href="https://www.linkedin.com/in/chelsea-spieker-2859b016/"
+          href="https://www.linkedin.com/in/sophie-schimansky-88436158/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Chelsea Spieker on linkedIn"
+          aria-label="Sophie Schimansky on linkedIn"
         >
           <StyledIcon>
             <Icon icon={ICONS.LINKEDIN} />
           </StyledIcon>
         </a>
         <a
-          href="https://www.instagram.com/chelsea.spieker"
+          href="https://instagram.com/sophiesnews"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Chelsea Spieker on instagram"
+          aria-label="Sophie Schimansky on instagram"
         >
           <StyledIcon>
             <Icon icon={ICONS.INSTAGRAM} />
           </StyledIcon>
         </a>
         <a
-          href="https://twitter.com/ChelseaSpieker"
+          href="https://twitter.com/soschimansky"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Chelsea Spieker on twitter"
+          aria-label="Sophie Schimansky on twitter"
         >
           <StyledIcon>
             <Icon icon={ICONS.TWITTER} />

@@ -41,22 +41,23 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: AmericanTypewriter-CondensedBold, "Courier New";
+  font-family: Avenir, "Open Sans", -apple-system, BlinkMacSystemFont, Arial,
+    sans-serif;
   line-height: 1.2;
   font-weight: 600;
 }
 h1 {
   font-size: 32px;
-  color: #ff0045;
+  color: #030203;
 }
 h2 {
   font-size: 32px;
-  color: #ff0045;
+  color: #030203;
 }
 h3 {
   font-size: 26px;
   /* margin-bottom: 12px; */
-  color: #000000;
+  color: #030203;
   text-align: left;
   margin-bottom: 16px;
 }

@@ -4,20 +4,16 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 import { device } from "../../theme/breakpoints"
 
-// const StyledImage = styled(Img)`
-//   height: 100%;
-//   @media ${device.tablet} {
-//     display: none;
-//   }
-// `
 const StyledImage = styled(Img)`
   display: none;
+
   @media ${device.tablet} {
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
     position: absolute !important;
-    bottom: 0;
-    width: 70%;
-    z-index: 0;
-    right: 0;
   }
 `
 
@@ -25,9 +21,9 @@ const HeroImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        heroImage: file(relativePath: { eq: "hero.png" }) {
+        heroImage: file(relativePath: { eq: "hero.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 1200) {
+            fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
@@ -39,8 +35,8 @@ const HeroImage = () => (
       return (
         <StyledImage
           fluid={image.fluid}
-          imgStyle={{ objectFit: "contain", objectPosition: "100% 100%" }}
-          alt="Frau Chelsea Spieker schaut mit bestimmtem Blick in die Kamera"
+          imgStyle={{ objectFit: "cover", objectPosition: "100% 100%" }}
+          alt="Sophie Schimansky vor den Wolkenkratzern der Wall Street"
         />
       )
     }}

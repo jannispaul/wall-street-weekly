@@ -7,24 +7,22 @@ import ProviderLogos from "./ProviderLogos"
 import { device } from "../theme/breakpoints"
 import { Link } from "gatsby"
 import arrowDown from "../content/images/arrow-down.svg"
-import background from "../content/images/bg.jpg"
 
 const StyledHero = styled.section`
   position: relative;
   display: block;
   width: 100%;
-  background: url(${background});
-  & > div {
-    max-width: 1256px;
-    margin: auto;
-    @media ${device.tablet} {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-row: auto;
-      height: 750px;
-      overflow: hidden;
-      align-items: center;
-    }
+`
+const ContentContainer = styled.div`
+  max-width: 1256px;
+  margin: auto;
+  @media ${device.tablet} {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: auto;
+    height: 750px;
+    overflow: hidden;
+    align-items: center;
   }
 `
 
@@ -51,10 +49,11 @@ const MoreLink = styled(Link)`
 
 const Hero = props => (
   <StyledHero>
-    <div>
+    <HeroImage></HeroImage>
+    <ContentContainer>
       <HeroImageMobile></HeroImageMobile>
       <HeroContent>
-        <h1>The Americans</h1>
+        <h1>Sophie Schimansky</h1>
         <p>
           This podcast is about today’s America. It takes a closer look at
           politics and society, and has a special focus on people and their
@@ -70,8 +69,7 @@ const Hero = props => (
           now
         </MoreLink>
       </HeroContent>
-    </div>
-    <HeroImage></HeroImage>
+    </ContentContainer>
   </StyledHero>
 )
 

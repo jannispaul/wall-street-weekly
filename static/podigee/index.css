@@ -1,5 +1,5 @@
 .loading-animation .spinner > div {
-  background-color: #7000c0 !important;
+  background-color: #ff0045 !important;
 }
 
 .podcast-player {
@@ -13,7 +13,7 @@
 }
 .podcast-player button.play-button {
   border: none;
-  color: #7000c0;
+  color: #ff0045;
   height: 60px;
   margin: 0;
   padding: 0;
@@ -80,7 +80,7 @@
 }
 .podcast-player .progress-bar-played,
 .podcast-player .progress-bar-loaded {
-  background-color: #7000c0;
+  background-color: #ff0045;
   border-radius: 10px;
   display: block;
   height: 100%;
@@ -89,7 +89,7 @@
   width: 0;
 }
 .podcast-player .progress-bar-played:after {
-  background-color: #7000c0;
+  background-color: #ff0045;
   border-radius: 50px;
   content: "";
   height: 16px;
@@ -108,7 +108,7 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 .podcast-player .progress-bar-buffering {
-  background-color: #7000c054;
+  background-color: #f7f2fb;
 }
 .podcast-player .progress-bar-buffering:after {
   animation: move 2s linear infinite;

@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-import Logo from "../content/images/the-americans-logo.svg"
+import Logo from "../content/images/wsw-logo.svg"
 import { device } from "../theme/breakpoints"
 import Icon from "../components/Icon"
 import { ICONS } from "../theme/Icons"
@@ -64,7 +64,10 @@ const SocialLinks = styled.div`
   align-content: center;
   align-items: center;
   & > a:not(:last-of-type) {
-    margin-right: 16px;
+    margin-right: 4px;
+    @media ${device.mobileL} {
+      margin-right: 16px;
+    }
   }
 `
 
@@ -79,7 +82,7 @@ const StyledLinks = styled.div`
   letter-spacing: 0.73px;
   font-size: 24px;
   font-weight: 600;
-  color: #7000c0;
+  color: #030203;
   grid-column: 1/3;
   grid-row: 1;
 
@@ -95,7 +98,10 @@ const StyledIcon = styled.div`
   margin-left: 10px;
   & > svg {
     width: 24px;
-    fill: #7000c0;
+    fill: #030203;
+    :hover {
+      fill: #ff0045;
+    }
   }
 `
 
@@ -135,7 +141,7 @@ const Navigation = props => {
             href="https://www.instagram.com/chelsea.spieker"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chelsea Spieker on instagram"
+            aria-label="Sophie Schimansky on instagram"
           >
             <StyledIcon>
               <Icon icon={ICONS.INSTAGRAM} />
@@ -145,7 +151,7 @@ const Navigation = props => {
             href="https://twitter.com/ChelseaSpieker"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chelsea Spieker on twitter"
+            aria-label="Sophie Schimansky on twitter"
           >
             <StyledIcon>
               <Icon icon={ICONS.TWITTER} />
@@ -155,7 +161,7 @@ const Navigation = props => {
             href="https://www.linkedin.com/in/chelsea-spieker-2859b016/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chelsea Spieker on linkedIn"
+            aria-label="Sophie Schimansky on linkedIn"
           >
             <StyledIcon>
               <Icon icon={ICONS.LINKEDIN} />

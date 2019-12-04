@@ -9,7 +9,6 @@ import "../theme/styles.css"
 import MPPresents from "./MPPresents"
 import Navigation from "./Navigation"
 import Footer from "./Footer"
-import Frame from "./Frame"
 import CookieNotice from "../components/CookieNotice"
 
 const Layout = props => {
@@ -25,7 +24,6 @@ const Layout = props => {
 
   return (
     <div>
-      <Frame></Frame>
       <CookieNotice></CookieNotice>
       <MPPresents></MPPresents>
       <Navigation siteTitle={data.site.siteMetadata.title} />

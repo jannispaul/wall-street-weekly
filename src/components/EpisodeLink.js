@@ -35,7 +35,7 @@ const StyledLink = styled(Link)`
   font-family: AvenirNextCondensed-DemiBold, "Open Sans", -apple-system,
     BlinkMacSystemFont, Arial, sans-serif;
   font-size: 16px;
-  color: #eb003f;
+  color: #ff0045;
   letter-spacing: 0.25px;
   text-transform: uppercase;
 `

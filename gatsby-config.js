@@ -21,7 +21,7 @@ module.exports = {
   siteMetadata: {
     title: `Wall Street Weekly`,
     description: `★ This interview podcast is about today’s America. It takes a closer look at politics and society, and has a special focus on people and their stories. ★`,
-    author: `Chelsea Spieker, Media Pioneer`,
+    author: `Sophie Schimansky, Media Pioneer`,
     siteUrl: `localhost:8000`,
     keywords: ``,
   },

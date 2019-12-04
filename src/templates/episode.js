@@ -83,9 +83,9 @@ const StyledHero = styled.section`
 `
 const ContentContainer = styled.section`
   order: -1;
-  & > h1 {
+  /* & > h1 {
     color: #7000c0;
-  }
+  } */
 `
 const CoverImage = styled(Img)`
   width: 220px;
