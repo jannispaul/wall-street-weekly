@@ -80,7 +80,7 @@ export default () => (
     render={data => (
       <StyledRecentEpisodes>
         <StyledHeadline>
-          <h2>More of The Americans</h2>
+          <h2>Mehr Wall Street Weekly</h2>
           <img src={headlineBG} alt="Airplanes flying away from headline" />
         </StyledHeadline>
         <ContentContainer>

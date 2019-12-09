@@ -38,7 +38,7 @@ const StyledButton = styled.a`
 `
 
 const RSSButton = props => (
-  <StyledButton href="https://the-americans.podigee.io/feed/mp3">
+  <StyledButton href="https://wall-street-weekly.podigee.io/feed/mp3">
     <Icon icon={ICONS.RSS} />
     <span>RSS Feed</span>
   </StyledButton>
