@@ -50,14 +50,15 @@ const StyledIcon = styled.div`
 const About = props => (
   <StyledAbout>
     <div>
-      <h2>About Sophie</h2>
+      <h2>Über Sophie</h2>
       <p>
-        As an American living in Germany for over a decade, Chelsea Spieker has
-        a unique view on her home country: one that gives you an inside and an
-        outside perspective on what moves people in the United States.
+        Sophie Schimansky ist Volkswirtin und Journalistin und berichtet seit
+        Jahren aus der Welt der Finanzen und Wirtschaft – für TV, Print und
+        Radio. Sie lebt seit 2015 in New York und fühlt sich besonders auf dem
+        Börsenparkett der Wall Street zu Hause.
       </p>
       <SocialContainer>
-        Follow:
+        Folgen:
         {/* <a
           href="https://business.facebook.com/the.americans.podcast"
           target="_blank"

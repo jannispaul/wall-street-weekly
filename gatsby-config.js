@@ -19,11 +19,11 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: `Wall Street Weekly`,
-    description: `★ This interview podcast is about today’s America. It takes a closer look at politics and society, and has a special focus on people and their stories. ★`,
-    author: `Sophie Schimansky, Media Pioneer`,
-    siteUrl: `localhost:8000`,
-    keywords: ``,
+    title: `Wall Street Weekly – Podcast mit Sophie Schimansky`,
+    description: `Börsen-Reporterin Sophie Schimansky berichtet live aus New York über die Themen, die Börsianer und Anleger bewegen.`,
+    author: `Sophie Schimansky`,
+    siteUrl: `localhost:8000`, //https://wall-street-weekly.com
+    keywords: `podcast, börse, wall street, dow jones, nasdaq, dax, media pioneer, steingart`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -78,8 +78,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: "https://the-americans.com",
-        sitemap: "https://the-americans.com/sitemap.xml",
+        host: "https://wall-street-weekly.com",
+        sitemap: "https://wall-street-weekly.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
@@ -87,7 +87,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-151018595-1",
+        trackingId: "UA-154156259-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         // head: false,
         // Setting this parameter is optional

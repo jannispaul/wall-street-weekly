@@ -85,7 +85,7 @@ const PreHeadline = styled.p`
 const MPProducts = props => (
   <StyledSection>
     <div>
-      <PreHeadline>Further productions from</PreHeadline>
+      <PreHeadline>Weitere Produktionen von MediaPioneer</PreHeadline>
       <StyledLogo src={mpLogo} alt="Mediapioneer-Logo" />
       <ProductContainer>
         <a

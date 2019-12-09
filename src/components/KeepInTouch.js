@@ -44,13 +44,13 @@ const KeepInTouch = props => (
     <div>
       <ShowCaseImage></ShowCaseImage>
       <ContentContainer>
-        <h2>Keep in touch</h2>
+        <h2>Jetzt abonnieren</h2>
         <p>
-          Free, no ads and a new episode every Wednesday: Listen to The
-          Americans on your favorite streaming service. And please feel free to
-          contact us with your feedback at:{" "}
-          <a href="mailto:americans@mediapioneer.com">
-            americans@mediapioneer.com
+          Kostenlos, werbefrei und top-aktuell an jedem Montag: Abonnieren Sie
+          Wall Street Weekly mit Sophie Schimansky bei Ihrem Streaming-Anbieter.
+          Über Ihr Feedback freuen wir uns unter{" "}
+          <a href="mailto:wallstreetweekly@mediapioneer.com">
+            wallstreetweekly@mediapioneer.com
           </a>
         </p>
 

@@ -53,20 +53,20 @@ const Hero = props => (
     <ContentContainer>
       <HeroImageMobile></HeroImageMobile>
       <HeroContent>
-        <h1>Sophie Schimansky</h1>
+        <h1>Wall Street Weekly</h1>
         <p>
-          This podcast is about today’s America. It takes a closer look at
-          politics and society, and has a special focus on people and their
-          stories – stories that give you an up-close, personal and
-          differentiated look at America.
+          Börsen-Reporterin Sophie Schimansky berichtet live aus New York über
+          die Themen, die Börsianer und Anleger bewegen. Dazu: verständliche
+          Analysen und spannende Hintergrundgespräche rund um Dow Jones, Nasdaq
+          und S&P 500.
         </p>
 
         <ProviderLogos></ProviderLogos>
         <MoreLink to="#episodes">
           <img src={arrowDown} alt="Pfeil nach unten" />
-          Listen
+          Jetzt
           <br />
-          now
+          anhören
         </MoreLink>
       </HeroContent>
     </ContentContainer>

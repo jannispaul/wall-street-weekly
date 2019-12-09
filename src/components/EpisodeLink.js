@@ -55,7 +55,7 @@ const EpisodeLink = props => (
       ></PodigeePlayer>
     </PlayerContainer>
     <p>{props.excerpt}</p>
-    <StyledLink to={props.slug}>Tell me more</StyledLink>
+    <StyledLink to={props.slug}>Mehr erfahren</StyledLink>
   </Episode>
 )
 
