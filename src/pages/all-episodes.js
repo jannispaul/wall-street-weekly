@@ -23,7 +23,7 @@ const StyledH1 = styled.h1`
 const AllEpisodesPage = () => (
   <Layout logocolor="#69d9c2">
     <SEO title="Alle Episoden" />
-    <StyledH1>All Episodes</StyledH1>
+    <StyledH1>Alle Episoden</StyledH1>
 
     <AllEpisodes></AllEpisodes>
     <About></About>

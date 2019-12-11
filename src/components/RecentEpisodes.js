@@ -72,7 +72,7 @@ export default () => (
           ></EpisodeLink>
         ))}
         <br />
-        <Button to="/all-episodes/">All Episodes</Button>
+        <Button to="/all-episodes/">Alle Episoden</Button>
         <br />
       </StyledRecentEpisodes>
     )}

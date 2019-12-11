@@ -62,7 +62,7 @@ const Hero = props => (
         </p>
 
         <ProviderLogos></ProviderLogos>
-        <MoreLink to="#episodes">
+        <MoreLink to="#episoden">
           <img src={arrowDown} alt="Pfeil nach unten" />
           Jetzt
           <br />

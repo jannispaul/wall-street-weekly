@@ -16,8 +16,8 @@ const Episode = styled(Link)`
   max-width: 250px;
   & > h4 {
     margin: 16px auto;
-    font-family: Avenir-Medium, "Open Sans", -apple-system, BlinkMacSystemFont,
-      Arial, sans-serif;
+    /* font-family: Avenir-Medium, "Open Sans", -apple-system, BlinkMacSystemFont,
+      Arial, sans-serif; */
     font-size: 14px;
     text-align: center;
     letter-spacing: 0.17px;
