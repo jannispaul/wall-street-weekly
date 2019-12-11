@@ -17,6 +17,8 @@ import ContentfulRichTextImage from "../components/ContentfulRichTextImage"
 import KeepInTouch from "../components/KeepInTouch"
 // import MoreOfTheAmericans from "../components/MoreOfTheAmericans"
 import SmallLabel from "../components/SmallLabel"
+import EpisodeHeroImage from "../components/ImageComponents/EpisodeHeroImage"
+
 export const query = graphql`
   query($slug: String!, $filename: String!) {
     podcast: contentfulPodcast(slug: { eq: $slug }) {
@@ -64,35 +66,40 @@ export const query = graphql`
 const StyledHero = styled.section`
   width: 100%;
   padding: 36px 24px;
-  background: url(${background});
+  align-items: center;
+
   @media ${device.tablet} {
-    padding: 90px 24px;
+    padding: 0;
+    display: grid;
   }
-  & > div {
-    max-width: 1256px;
-    margin: auto;
-    @media ${device.tablet} {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-    }
+  @media ${device.laptopL} {
+    grid-template-columns: auto 625px 625px auto;
   }
+
   & p {
     font-size: 12px;
   }
 `
 const ContentContainer = styled.section`
-  order: -1;
-  /* & > h1 {
-    color: #7000c0;
-  } */
+  grid-row: 1/2;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media ${device.tablet} {
+    padding: 36px 24px;
+  }
 `
 const CoverImage = styled(Img)`
-  width: 220px;
-  height: 220px;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  /* margin: 32px; */
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  margin: auto;
   margin-bottom: 32px;
 
   @media ${device.tablet} {
@@ -122,8 +129,6 @@ const StyledContent = styled.article`
 `
 
 const SocialContainer = styled.div`
-  /* font-family: AvenirNextCondensed-Bold, "Open Sans", -apple-system,
-    BlinkMacSystemFont, Arial, sans-serif; */
   font-size: 21.6px;
   color: #ff0045;
   letter-spacing: 0.34px;
@@ -160,20 +165,19 @@ const EpisodeTemplate = ({ data: { podcast, ogimage, site }, location }) => {
         description={podcast.description.description}
       />
       <StyledHero>
-        <div>
-          <CoverImage
-            sizes={podcast.image.sizes}
-            alt={podcast.image.description}
-          />
-          <ContentContainer>
-            <SmallLabel>{podcast.createdAt}</SmallLabel>
-            <h1>{podcast.title}</h1>
-            <PodigeePlayer
-              theme="minimal"
-              source={podcast.podcastSlug}
-            ></PodigeePlayer>
-          </ContentContainer>
-        </div>
+        <EpisodeHeroImage></EpisodeHeroImage>
+        <CoverImage
+          sizes={podcast.image.sizes}
+          alt={podcast.image.description}
+        />
+        <ContentContainer>
+          <SmallLabel>{podcast.createdAt}</SmallLabel>
+          <h1>{podcast.title}</h1>
+          <PodigeePlayer
+            theme="minimal"
+            source={podcast.podcastSlug}
+          ></PodigeePlayer>
+        </ContentContainer>
       </StyledHero>
       <StyledContent>
         <div>

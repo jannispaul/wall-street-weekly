@@ -77,11 +77,11 @@ const StyledLinks = styled.div`
   @media ${device.laptop} {
     display: inline-block;
   }
-  /* font-family: AvenirNextCondensed-DemiBold, "Open Sans", -apple-system,
-    BlinkMacSystemFont, Arial, sans-serif; */
+  font-family: Oswald, "Open Sans", -apple-system, BlinkMacSystemFont, Arial,
+    sans-serif;
   letter-spacing: 0.73px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   color: #030203;
   grid-column: 1/3;
   grid-row: 1;
