@@ -18,15 +18,15 @@ const CookieNotice = () => (
       buttonText="Verstanden"
       cookieName="TheAmericansCookieNoticeAccepted"
       style={{
-        background: "#7000c0",
-        color: "white",
+        background: "#e8edfa",
+        color: "black",
         position: "relative",
         zIndex: "200",
         display: "flex",
       }}
       buttonStyle={{
-        background: "white",
-        color: "#7000c0",
+        background: "black",
+        color: "#e8edfa",
         fontWeight: "600",
         fontSize: "18px",
         padding: "18px",
@@ -38,7 +38,7 @@ const CookieNotice = () => (
       Diese Website nutzt Cookies um Ihr Erlebnis zu verbessern.{" "}
       <a
         href="https://mediapioneer.com/datenschutz"
-        style={{ color: "white" }}
+        style={{ color: "black" }}
         aria-label="Link zum Datenschutz"
       >
         Mehr erfahren
