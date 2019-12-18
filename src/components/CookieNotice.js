@@ -16,7 +16,7 @@ const CookieNotice = () => (
       debug={false}
       location="bottom"
       buttonText="Verstanden"
-      cookieName="TheAmericansCookieNoticeAccepted"
+      cookieName="WallStreetWeeklyCookieNoticeAccepted"
       style={{
         background: "#e8edfa",
         color: "black",

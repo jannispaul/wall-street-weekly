@@ -46,7 +46,7 @@ const ShowCaseImage = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: "cover" }}
-          alt="iPhone mit The Americans Podcast"
+          alt="iPhone mit Wall Street Weekly Podcast"
         />
       )
     }}

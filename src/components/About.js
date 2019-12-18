@@ -24,6 +24,7 @@ const StyledAbout = styled.section`
 const SocialContainer = styled.div`
   /* font-family: AvenirNextCondensed-Bold, "Open Sans", -apple-system,
     BlinkMacSystemFont, Arial, sans-serif; */
+  font-family: Oswald;
   font-size: 21.6px;
   color: #ff0045;
   letter-spacing: 0.34px;
@@ -59,16 +60,6 @@ const About = props => (
       </p>
       <SocialContainer>
         Folgen:
-        {/* <a
-          href="https://business.facebook.com/the.americans.podcast"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="The americans podcast on facebook"
-        >
-          <StyledIcon>
-            <Icon icon={ICONS.FACEBOOK} />
-          </StyledIcon>
-        </a> */}
         <a
           href="https://www.linkedin.com/in/sophie-schimansky-88436158/"
           target="_blank"

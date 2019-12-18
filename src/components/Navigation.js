@@ -120,10 +120,7 @@ const Navigation = props => {
         </StyledLinks>
 
         <StyledLogo to="/">
-          <img
-            src={Logo}
-            alt="The Americans Logo mit Sternen und in Blau und Rot"
-          />
+          <img src={Logo} alt="Wall Street Weekly Logo in Serifenschrift" />
         </StyledLogo>
 
         <SocialLinks>

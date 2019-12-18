@@ -81,16 +81,6 @@ const Footer = props => (
         </a>
       </div>
       <div>
-        {/* <a
-          href="https://www.facebook.com/the.americans.podcast"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="The americans podcast on facebook"
-        >
-          <StyledIcon>
-            <Icon icon={ICONS.FACEBOOK} />
-          </StyledIcon>
-        </a> */}
         <a
           href="https://instagram.com/sophiesnews"
           target="_blank"
