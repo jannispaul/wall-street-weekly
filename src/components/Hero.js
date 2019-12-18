@@ -16,7 +16,7 @@ const StyledHero = styled.section`
 const ContentContainer = styled.div`
   max-width: 1256px;
   margin: auto;
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row: auto;
@@ -31,7 +31,10 @@ const HeroContent = styled.div`
   z-index: 1;
   padding: 24px;
   max-width: 560px;
-  @media ${device.tablet} {
+  & > h1 {
+    margin-bottom: 1rem;
+  }
+  @media ${device.laptop} {
     grid-column: 1/3;
     grid-row: 1;
   }

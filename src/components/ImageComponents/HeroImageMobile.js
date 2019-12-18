@@ -6,7 +6,7 @@ import { device } from "../../theme/breakpoints"
 
 const StyledImage = styled(Img)`
   height: 100%;
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     display: none;
   }
 `
@@ -15,7 +15,7 @@ const mobileHeroImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        mobileHeroImage: file(relativePath: { eq: "hero.jpg" }) {
+        mobileHeroImage: file(relativePath: { eq: "hero-mobile.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
