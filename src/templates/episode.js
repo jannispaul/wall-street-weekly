@@ -70,6 +70,7 @@ const StyledHero = styled.section`
   @media ${device.tablet} {
     padding: 0;
     display: grid;
+    grid-template-columns: auto 425px 425px auto;
   }
   @media ${device.laptopL} {
     grid-template-columns: auto 625px 625px auto;
@@ -92,14 +93,11 @@ const ContentContainer = styled.section`
 const CoverImage = styled(Img)`
   grid-row: 1/2;
   grid-column: 3/4;
-  /* margin: 32px; */
   max-width: 420px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 16px auto;
 
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  margin-bottom: 32px;
 
   @media ${device.tablet} {
     border-radius: 9px;

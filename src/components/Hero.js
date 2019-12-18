@@ -32,7 +32,7 @@ const HeroContent = styled.div`
   padding: 24px;
   max-width: 560px;
   & > h1 {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
   @media ${device.laptop} {
     grid-column: 1/3;
