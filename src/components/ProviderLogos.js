@@ -69,11 +69,10 @@ const Banner = styled.div`
 const ProviderLogos = props => (
   <StyledLogos>
     <a
-    // href="https://podcasts.apple.com/de/podcast/"
+    // href="https://podcasts.apple.com/de/podcast/id1492041064 "
     // target="_blank"
     // rel="noopener noreferrer"
     >
-      {" "}
       <Banner>
         <img src={apple} alt="apple logo" />
         <p>Coming soon</p>
@@ -81,39 +80,46 @@ const ProviderLogos = props => (
       {/* <img src={apple} alt="apple logo" /> */}
     </a>
     <a
-      href="https://open.spotify.com/show/6Fe93skKJuVnpnAbRZpVGS"
+      href="https://open.spotify.com/show/30ymBlt8WBXptJOEvpg3Sg"
       target="_blank"
       rel="noopener noreferrer"
     >
       <img src={spotify} alt="spotify logo"></img>
     </a>
     <a
-      href="https://www.deezer.com/de/show/630472"
+      href="https://www.deezer.com/de/show/742072"
       target="_blank"
       rel="noopener noreferrer"
     >
       <img src={deezer} alt="deezer logo"></img>
     </a>
     <a
-      href="https://earli.page.link/N5R3"
-      target="_blank"
-      rel="noopener noreferrer"
+    // href="https://earli.page.link/N5R3"
+    // target="_blank"
+    // rel="noopener noreferrer"
     >
-      <StyledImage src={earliaudio} alt="earliaudio logo"></StyledImage>
+      <Banner>
+        <StyledImage src={earliaudio} alt="earliaudio logo"></StyledImage>
+        <p>Coming soon</p>
+      </Banner>
     </a>
     <a
-      href="https://soundcloud.com/user-652439363"
-      target="_blank"
-      rel="noopener noreferrer"
+    // href="" target="_blank" rel="noopener noreferrer"
     >
-      <img src={soundcloud} alt="soundcloud logo"></img>
+      <Banner>
+        <img src={soundcloud} alt="soundcloud logo"></img>
+        <p>Coming soon</p>
+      </Banner>
     </a>
     <a
-      href="https://overcast.fm/itunes1485252076/the-americans"
-      target="_blank"
-      rel="noopener noreferrer"
+    // href="https://overcast.fm/itunes1492041064"
+    // target="_blank"
+    // rel="noopener noreferrer"
     >
-      <img src={overcast} alt="overcast logo"></img>
+      <Banner>
+        <img src={overcast} alt="overcast logo"></img>
+        <p>Coming soon</p>
+      </Banner>
     </a>
     <RSSButton></RSSButton>
   </StyledLogos>

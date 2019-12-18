@@ -128,17 +128,7 @@ const Navigation = props => {
 
         <SocialLinks>
           <a
-            href="https://www.facebook.com/the.americans.podcast"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="The americans podcast on facebook"
-          >
-            <StyledIcon>
-              <Icon icon={ICONS.FACEBOOK} />
-            </StyledIcon>
-          </a>
-          <a
-            href="https://www.instagram.com/chelsea.spieker"
+            href="https://instagram.com/sophiesnews"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Sophie Schimansky on instagram"
@@ -148,7 +138,7 @@ const Navigation = props => {
             </StyledIcon>
           </a>
           <a
-            href="https://twitter.com/ChelseaSpieker"
+            href="https://twitter.com/soschimansky"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Sophie Schimansky on twitter"
@@ -158,7 +148,7 @@ const Navigation = props => {
             </StyledIcon>
           </a>
           <a
-            href="https://www.linkedin.com/in/chelsea-spieker-2859b016/"
+            href="https://www.linkedin.com/in/sophie-schimansky-88436158/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Sophie Schimansky on linkedIn"

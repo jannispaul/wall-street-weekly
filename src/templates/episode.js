@@ -8,7 +8,6 @@ import styled from "styled-components"
 import { device } from "../theme/breakpoints"
 import Icon from "../components/Icon"
 import { ICONS } from "../theme/Icons"
-import background from "../content/images/bg.jpg"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"

@@ -56,7 +56,7 @@ export default () => (
     `}
     render={data => (
       <StyledRecentEpisodes>
-        <h2>Recent Episodes</h2>
+        <h2>Aktuelle Folgen</h2>
         {/* <img src={headlineBG} alt="Airplanes flying away from headline" /> */}
         {/* <StyledHeadline>
         </StyledHeadline> */}
