@@ -1,6 +1,6 @@
 ## Wall Street Weekly Gatsby-Website
 
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/e779d4ae-9bdf-4d12-af66-87f35ea30e6e/deploy-status)](https://app.netlify.com/sites/optimistic-swanson-d07dac/deploys) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae78b932-91f3-4912-bf57-d0ac13b90e81/deploy-status)](https://app.netlify.com/sites/boring-mcclintock-d94f7b/deploys)
 
 1.  **Start developing.**
 
