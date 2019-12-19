@@ -35,7 +35,7 @@ const StyledLink = styled(Link)`
   font-family: Oswald, "Open Sans", -apple-system, BlinkMacSystemFont, Arial,
     sans-serif;
   font-size: 16px;
-  color: #ff0045;
+  color: #eb003f;
   letter-spacing: 0.25px;
   text-transform: uppercase;
 `

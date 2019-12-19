@@ -26,7 +26,7 @@ const SocialContainer = styled.div`
     BlinkMacSystemFont, Arial, sans-serif; */
   font-family: Oswald;
   font-size: 21.6px;
-  color: #ff0045;
+  color: #eb003f;
   letter-spacing: 0.34px;
   text-align: center;
   margin-top: 16px;

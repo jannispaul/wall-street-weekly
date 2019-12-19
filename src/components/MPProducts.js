@@ -78,7 +78,7 @@ const PreHeadline = styled.p`
   font-family: Oswald, "Open Sans", -apple-system, BlinkMacSystemFont, Arial,
     sans-serif;
   font-size: 20px;
-  color: #ff0045;
+  color: #db003a;
   text-align: center;
 `
 

@@ -16,7 +16,7 @@ const StyledButton = styled.a`
   & > span {
     font-weight: 500;
     margin-bottom: -2px;
-    opacity: 0.5;
+    opacity: 0.6;
     font-size: 16px;
     transition: 200ms opacity ease;
     color: #000;
