@@ -1,12 +1,12 @@
 /* latin-ext */
-@font-face {
+/* @font-face {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local("Oswald Regular"), local("Oswald-Regular"),
     url("/fonts/Oswald-Regular.woff2") format("woff2");
-}
+} */
 /* @font-face {
   font-family: "Oswald";
   font-style: medium;
@@ -15,23 +15,23 @@
   src: local("Oswald Medium"), local("Oswald-Medium"),
     url("/fonts/Oswald-Medium.woff2") format("woff2");
 } */
-@font-face {
+/* @font-face {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: local("Oswald Medium"), local("Oswald-Medium"),
     url("/fonts/Oswald-Medium.woff2") format("woff2");
-}
+} */
 /* latin-ext */
-@font-face {
+/* @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local("Open Sans Regular"), local("OpenSans-Regular"),
     url("/fonts/OpenSans-Regular.woff2") format("woff2");
-}
+} */
 /* latin-ext */
 /* @font-face {
   font-family: "Source Sans Pro";
@@ -41,6 +41,22 @@
   src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"),
     url("/fonts/SourceSansPro-Semibold.woff2") format("woff2");
 } */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url("/fonts/OpenSans-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"),
+    url("/fonts/SourceSansPro-Semibold.woff2") format("woff2");
+}
 
 body {
   font-family: Avenir, "Open Sans", -apple-system, BlinkMacSystemFont, Arial,

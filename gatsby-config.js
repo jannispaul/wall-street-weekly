@@ -26,7 +26,7 @@ module.exports = {
     keywords: `podcast, börse, wall street, dow jones, nasdaq, dax, media pioneer, steingart`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-react-helmet-async`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -108,6 +108,14 @@ module.exports = {
         // sampleRate: 5,
         // siteSpeedSampleRate: 10,
         // cookieDomain: "example.com",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Oswald:n4,n6"],
+        },
       },
     },
     {
