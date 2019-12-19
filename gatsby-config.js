@@ -22,7 +22,7 @@ module.exports = {
     title: `Wall Street Weekly – Podcast mit Sophie Schimansky`,
     description: `Börsen-Reporterin Sophie Schimansky berichtet live aus New York über die Themen, die Börsianer und Anleger bewegen.`,
     author: `Sophie Schimansky`,
-    siteUrl: `localhost:8000`, //https://wall-street-weekly.com
+    siteUrl: `https://wall-street-weekly.com`, //https://wall-street-weekly.com
     keywords: `podcast, börse, wall street, dow jones, nasdaq, dax, media pioneer, steingart`,
   },
   plugins: [
