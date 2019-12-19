@@ -219,7 +219,7 @@ const EpisodeTemplate = ({ data: { podcast, ogimage, site }, location }) => {
             </StyledIcon>
           </a>
           <a
-            href={`https://twitter.com/intent/tweet?text=Listen to The Americans podcast: ${site.siteMetadata.siteUrl}${location.pathname}`}
+            href={`https://twitter.com/intent/tweet?text=Jetzt die neue Podcast-Folge Wall Street Weekly anhören: ${site.siteMetadata.siteUrl}${location.pathname}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -228,7 +228,7 @@ const EpisodeTemplate = ({ data: { podcast, ogimage, site }, location }) => {
             </StyledIcon>
           </a>
           <a
-            href={`whatsapp://send?text=${podcast.title} – Listen to The Americans podcast: ${site.siteMetadata.siteUrl}${location.pathname}`}
+            href={`whatsapp://send?text=${podcast.title} – Jetzt die neue Podcast-Folge Wall Street Weekly anhören: ${site.siteMetadata.siteUrl}${location.pathname}`}
             dataAction="share/whatsapp/share"
             target="_blank"
             rel="noopener noreferrer"
@@ -238,7 +238,7 @@ const EpisodeTemplate = ({ data: { podcast, ogimage, site }, location }) => {
             </StyledIcon>
           </a>
           <a
-            href={`mailto:?&subject=${podcast.title}&body=Listen to The Americans podcast:%0D%0A${site.siteMetadata.siteUrl}${location.pathname}`}
+            href={`mailto:?&subject=${podcast.title}&body=Jetzt die neue Podcast-Folge Wall Street Weekly anhören:%0D%0A${site.siteMetadata.siteUrl}${location.pathname}`}
             target="_blank"
             rel="noopener noreferrer"
           >
