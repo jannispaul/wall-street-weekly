@@ -41,7 +41,7 @@ const StyledLink = styled(Link)`
 `
 
 const EpisodeLink = props => (
-  <Episode key={props.key}>
+  <Episode>
     <SmallLabel>{props.date}</SmallLabel>
     <StyledH3Link to={props.slug}>
       <h3>{props.title}</h3>

@@ -7,10 +7,6 @@ import { device } from "../theme/breakpoints"
 import Button from "./Button"
 
 const StyledRecentEpisodes = styled.section`
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center; */
   padding: 0 24px;
   position: relative;
 
@@ -34,6 +30,7 @@ export default () => (
         ) {
           edges {
             node {
+              id
               podcastSlug
               title
               body {
@@ -57,9 +54,6 @@ export default () => (
     render={data => (
       <StyledRecentEpisodes>
         <h2>Aktuelle Folgen</h2>
-        {/* <img src={headlineBG} alt="Airplanes flying away from headline" /> */}
-        {/* <StyledHeadline>
-        </StyledHeadline> */}
         {data.allContentfulPodcast.edges.map(({ node }) => (
           <EpisodeLink
             key={node.id}

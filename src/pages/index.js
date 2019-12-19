@@ -11,10 +11,7 @@ import ScrollAnchor from "../components/ScrollAnchor"
 
 const IndexPage = () => (
   <Layout>
-    <SEO
-      // title="Wall Street Weekly – Podcast mit Sophie Schimansky "
-      lang="de"
-    />
+    <SEO title="Wall Street Weekly – Podcast mit Sophie Schimansky" lang="de" />
     <Hero></Hero>
     <ScrollAnchor id="episoden"></ScrollAnchor>
     <RecentEpisodes></RecentEpisodes>
