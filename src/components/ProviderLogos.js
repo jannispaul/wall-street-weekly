@@ -69,15 +69,15 @@ const Banner = styled.div`
 const ProviderLogos = props => (
   <StyledLogos>
     <a
-    // href="https://podcasts.apple.com/de/podcast/id1492041064 "
-    // target="_blank"
-    // rel="noopener noreferrer"
+      href="https://podcasts.apple.com/de/podcast/id1492041064 "
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <Banner>
+      {/* <Banner>
         <img src={apple} alt="apple logo" />
         <p>Coming soon</p>
-      </Banner>
-      {/* <img src={apple} alt="apple logo" /> */}
+      </Banner> */}
+      <img src={apple} alt="apple logo" />
     </a>
     <a
       href="https://open.spotify.com/show/30ymBlt8WBXptJOEvpg3Sg"
@@ -103,23 +103,21 @@ const ProviderLogos = props => (
         <p>Coming soon</p>
       </Banner>
     </a>
-    <a
-    // href="" target="_blank" rel="noopener noreferrer"
-    >
+    <a href="" target="_blank" rel="noopener noreferrer">
       <Banner>
         <img src={soundcloud} alt="soundcloud logo"></img>
         <p>Coming soon</p>
       </Banner>
     </a>
     <a
-    // href="https://overcast.fm/itunes1492041064"
-    // target="_blank"
-    // rel="noopener noreferrer"
+      href="https://overcast.fm/itunes1492041064"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <Banner>
-        <img src={overcast} alt="overcast logo"></img>
+      <img src={overcast} alt="overcast logo"></img>
+      {/* <Banner>
         <p>Coming soon</p>
-      </Banner>
+      </Banner> */}
     </a>
     <RSSButton></RSSButton>
   </StyledLogos>
