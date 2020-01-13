@@ -69,7 +69,7 @@ const Banner = styled.div`
 const ProviderLogos = props => (
   <StyledLogos>
     <a
-      href="https://podcasts.apple.com/de/podcast/id1492041064 "
+      href="https://podcasts.apple.com/de/podcast/id1492041064"
       target="_blank"
       rel="noopener noreferrer"
     >
