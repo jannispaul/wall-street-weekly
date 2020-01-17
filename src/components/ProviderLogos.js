@@ -4,7 +4,7 @@ import spotify from "../content/images/providers/spotify.svg"
 import apple from "../content/images/providers/apple.svg"
 import overcast from "../content/images/providers/overcast.svg"
 import earliaudio from "../content/images/providers/earliaudio.png"
-import soundcloud from "../content/images/providers/soundcloud.svg"
+import google from "../content/images/providers/google.svg"
 import deezer from "../content/images/providers/deezer.svg"
 // import { device } from "../theme/breakpoints"
 import RSSButton from "./RSSButton"
@@ -94,20 +94,24 @@ const ProviderLogos = props => (
       <img src={deezer} alt="deezer logo"></img>
     </a>
     <a
-    // href="https://earli.page.link/N5R3"
-    // target="_blank"
-    // rel="noopener noreferrer"
+      href="https://earli.page.link/2k3yEVq1quyaq1WH6"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <Banner>
-        <StyledImage src={earliaudio} alt="earliaudio logo"></StyledImage>
+      <StyledImage src={earliaudio} alt="earliaudio logo"></StyledImage>
+      {/* <Banner>
         <p>Coming soon</p>
-      </Banner>
+      </Banner> */}
     </a>
-    <a href="" target="_blank" rel="noopener noreferrer">
-      <Banner>
-        <img src={soundcloud} alt="soundcloud logo"></img>
+    <a
+      href="https://podcasts.google.com/?feed=aHR0cHM6Ly93YWxsLXN0cmVldC13ZWVrbHkucG9kaWdlZS5pby9mZWVkL21wMwllo"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src={google} alt="google podcast logo"></img>
+      {/* <Banner>
         <p>Coming soon</p>
-      </Banner>
+      </Banner> */}
     </a>
     <a
       href="https://overcast.fm/itunes1492041064"
