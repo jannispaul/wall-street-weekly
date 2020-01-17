@@ -104,7 +104,7 @@ const ProviderLogos = props => (
       </Banner> */}
     </a>
     <a
-      href="https://podcasts.google.com/?feed=aHR0cHM6Ly93YWxsLXN0cmVldC13ZWVrbHkucG9kaWdlZS5pby9mZWVkL21wMwllo"
+      href="https://podcasts.google.com/?feed=aHR0cHM6Ly93YWxsLXN0cmVldC13ZWVrbHkucG9kaWdlZS5pby9mZWVkL21wMw%3D%3D"
       target="_blank"
       rel="noopener noreferrer"
     >
