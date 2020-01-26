@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { device } from "../theme/breakpoints"
 import MBPodcastImage from "./ImageComponents/MBPodcastImage"
+import UeberstundePodcastImage from "./ImageComponents/UeberstundePodcastImage"
 import TheAmericansPodcastImage from "./ImageComponents/TheAmericansPodcastImage"
 // import MBNewsletterImage from "./ImageComponents/MBNewsletterImage"
 // import PioneerBlogImage from "./ImageComponents/PioneerBlogImage"
@@ -31,15 +32,15 @@ const StyledLogo = styled.img`
 `
 const ProductContainer = styled.div`
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(100px, 1fr));
   margin-top: 32px;
   grid-gap: 12px;
   justify-content: center;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     /* grid-template-columns: repeat(4, minmax(192px, 1fr)); */
     margin-top: 64px;
   }
@@ -103,6 +104,14 @@ const MPProducts = props => (
         >
           <TheAmericansPodcastImage></TheAmericansPodcastImage>
           <p>The Americans – mit Chelsea Spieker</p>
+        </a>
+        <a
+          href="https://überstunde.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <UeberstundePodcastImage></UeberstundePodcastImage>
+          <p>Überstunde – mit Marina Weisband und Michael Bröcker</p>
         </a>
 
         {/*<a
