@@ -22,7 +22,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-contentful": "^2.1.71",
     "gatsby-source-filesystem": "^2.1.42",
-    "gatsby-transformer-remark": "^2.6.43",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.9",
     "intersection-observer": "^0.7.0",
     "prop-types": "^15.7.2",
